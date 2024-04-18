@@ -1,0 +1,14 @@
+.detail-content-box {
+    width: 100%;
+    margin: 20px 0;
+
+    div {
+        margin: 5px;
+        resize: none;
+        width: inherit;
+        min-height: 40%;
+        font-size: 18px;
+        border: none;
+        line-height: 1.5;
+    }
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-box {
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+.title-main {
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.title-sub {
+    font-size: 13px;
+}

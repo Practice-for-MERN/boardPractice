@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-title-box {
+    width: 92%;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+.post-title-main {
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.post-title-sub {
+    font-size: 13px;
+}

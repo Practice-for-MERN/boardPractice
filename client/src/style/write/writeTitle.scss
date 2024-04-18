@@ -1,0 +1,16 @@
+.write-title-box {
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+
+    input {
+        width: 100%;
+        margin: 10px 0 10px 0;
+        border: none;
+        padding: 10px 0;
+        font-size: 25px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

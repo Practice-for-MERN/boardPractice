@@ -1,0 +1,27 @@
+.earth {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+}
+
+.sun {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.jupiter {
+    position: absolute;
+    bottom: 10%;
+    right: 18%;
+    z-index: 2;
+}
+
+.moon {
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    z-index: 2;
+}

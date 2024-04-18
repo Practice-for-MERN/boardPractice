@@ -1,0 +1,13 @@
+.postSidebar-arrow {
+    width: 130px;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    img {
+        width: 20px;
+        margin-top: 7px;
+        cursor: pointer;
+    }
+}
