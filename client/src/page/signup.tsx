@@ -49,7 +49,7 @@ const Signup = () => {
             return;
         }
     
-        axios.post('http://localhost:49152/api/users', formData, {
+        axios.post('http://localhost:5000/user/signup', formData, {
             headers: {
                 'Content-Type': 'application/json'
             }

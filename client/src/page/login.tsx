@@ -26,13 +26,13 @@ const Login = () => {
         };
 
         try {
-            const response = await axios.post('http://localhost:49152/api/users/login', formData, {
+            const response = await axios.post('http://localhost:5000/user/login', formData, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
             });
-            localStorage.setItem('userToken', response.data.token); // 로그인 성공 시 토큰 저장
-            localStorage.setItem('userId', response.data.userId); // 사용자 ID 저장
+            // localStorage.setItem('userToken', response.data.token); // 로그인 성공 시 토큰 저장
+            // localStorage.setItem('userId', response.data.userId); // 사용자 ID 저장
             alert('로그인에 성공하였습니다.');
             navigate('/post'); // navigate 사용 시 사용자 ID를 파라미터로 전달할 수도 있음
         } catch (error) {
